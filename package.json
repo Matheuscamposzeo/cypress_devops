@@ -1,0 +1,23 @@
+{
+    "name": "cypress-devops",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cypress": "./node_modules/.bin/cypress open",
+        "scripts": "cypress run",
+        "PubDashboard": "npx cypress run --record --key ad4799ce-bda9-442d-b9ae-8dd1b431e8bd"
+    },
+    "author": "Matheus Medeiros",
+    "license": "ISC",
+    "dependencies": {
+        "cypress-multi-reporters": "^1.5.0",
+        "mochawesome": "^6.2.2",
+        "xlsx": "^0.17.0",
+        "xvfb": "^0.4.0"
+    },
+    "devDependencies": {
+        "cypress": "^7.6.0",
+        "mocha": "^8.2.1"
+    }
+}
