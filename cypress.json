@@ -1,18 +1,18 @@
 {
-  "baseUrl": "https://conta.e-auditoria.com.br/Login",
-  "baseUrlMult": "https://emultiplicador.e-auditoria.com.br/home",
-  "reporter": "cypress-multi-reporters",
-  "reporterOptions": {
-    "reporterEnabled": "mochawesome",
-    "mochawesomeReporterOptions": {
-      "reportDir": "cypress/reports/mocha",
-      "quite": true,
-      "overwrite": false,
-      "html": false,
-      "json": true
-    }
-  },
-  "viewportWidth": 1920,
-  "viewportHeight": 1080,
-  "projectId": "3fv6ph"
-}
+    "baseUrl": "https://conta.e-auditoria.com.br/Login",
+    "baseUrlMult": "https://emultiplicador.e-auditoria.com.br/home",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      }
+    },
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "projectId": "3fv6ph"
+  }
