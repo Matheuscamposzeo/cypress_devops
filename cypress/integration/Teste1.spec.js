@@ -16,7 +16,7 @@ describe('TESTES_ENAD', () => {
         cy.get('div[style="display: flex; justify-content: space-between"] > :nth-child(2)').should('contain', 'Professor')
     });
 
-    it('Teste deve entrar como professor e criar uma questão', () => {
+    it.skip('Teste deve entrar como professor e criar uma questão', () => {
 
         cy.get('input:eq(1)').type('prof')
         cy.get('input:eq(2)').type('prof')
